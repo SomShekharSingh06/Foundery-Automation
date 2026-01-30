@@ -1,0 +1,16 @@
+[Unit]
+Description=Foundery MCP Launcher
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/driftking/Desktop/Foundery_Automation
+ExecStart=/usr/bin/node /home/driftking/Desktop/Foundery_Automation/mcp-server.js
+Restart=always
+RestartSec=3
+Environment=NODE_ENV=production
+# Adjust the User and Group if you don't want to run as root
+# User=youruser
+
+[Install]
+WantedBy=multi-user.target

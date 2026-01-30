@@ -1,0 +1,28 @@
+{
+  "name": "foundery_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mcp-server": "node mcp-server.js --mode=server",
+    "mcp-launcher": "node mcp-server.js",
+    "mcp-launcher:debug": "NODE_ENV=development node mcp-server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^24.5.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "googleapis": "^167.0.0",
+    "mailosaur": "^8.8.1",
+    "node-fetch": "^3.3.2",
+    "openai": "^6.7.0",
+    "playwright": "^1.57.0"
+  }
+}

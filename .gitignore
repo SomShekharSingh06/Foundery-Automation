@@ -1,0 +1,42 @@
+# === PLAYWRIGHT & NODE ===
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+playwright-mcp/
+/tmp/
+
+# === SECURITY - SECRET FILES (NO TRAILING SLASH!) ===
+.env
+.env.*
+.env.local
+clientConfig.json
+token.json
+credentials.json
+
+# === IDE & EDITOR ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === LOGS ===
+*.log
+launcher.log
+mcp-server.log
+
+# === ARCHIVES & TEMP ===
+*.zip
+*.tar
+*.gz
+.agent/
+Chag
+Run
+
+# === PYTHON (if any) ===
+__pycache__/
+*.pyc
+.venv/
+venv/
